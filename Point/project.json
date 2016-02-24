@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0-*",
+    "description": "Point Class Library",
+    "authors": [ "Joseph" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+    "dependencies": {
+        "xunit": "2.1.0",
+        "xunit.runner.dnx": "2.1.0-rc1-build204",
+        "FsCheck": "2.2.4"
+    },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    },
+    "frameworks": {
+        "dnxcore50": {
+        }
+    }
+}
